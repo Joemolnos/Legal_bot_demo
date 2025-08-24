@@ -1,0 +1,1154 @@
+{
+  "file_path": "documents/uploaded\\HUN_alaptörvény.pdf",
+  "file_name": "HUN_alaptörvény.pdf",
+  "total_pages": 82,
+  "file_size": 5945094,
+  "file_hash": "27783b03712c6629471263ef381ae54e",
+  "language": "hu",
+  "chunk_pages": [
+    {
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "page_start": 4,
+      "page_end": 4
+    },
+    {
+      "page_start": 4,
+      "page_end": 4
+    },
+    {
+      "page_start": 5,
+      "page_end": 5
+    },
+    {
+      "page_start": 5,
+      "page_end": 5
+    },
+    {
+      "page_start": 6,
+      "page_end": 6
+    },
+    {
+      "page_start": 6,
+      "page_end": 6
+    },
+    {
+      "page_start": 6,
+      "page_end": 6
+    },
+    {
+      "page_start": 6,
+      "page_end": 6
+    },
+    {
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "page_start": 9,
+      "page_end": 9
+    },
+    {
+      "page_start": 9,
+      "page_end": 9
+    },
+    {
+      "page_start": 9,
+      "page_end": 9
+    },
+    {
+      "page_start": 9,
+      "page_end": 9
+    },
+    {
+      "page_start": 10,
+      "page_end": 10
+    },
+    {
+      "page_start": 10,
+      "page_end": 10
+    },
+    {
+      "page_start": 10,
+      "page_end": 10
+    },
+    {
+      "page_start": 10,
+      "page_end": 10
+    },
+    {
+      "page_start": 11,
+      "page_end": 11
+    },
+    {
+      "page_start": 11,
+      "page_end": 11
+    },
+    {
+      "page_start": 11,
+      "page_end": 11
+    },
+    {
+      "page_start": 11,
+      "page_end": 11
+    },
+    {
+      "page_start": 12,
+      "page_end": 12
+    },
+    {
+      "page_start": 12,
+      "page_end": 12
+    },
+    {
+      "page_start": 12,
+      "page_end": 12
+    },
+    {
+      "page_start": 12,
+      "page_end": 12
+    },
+    {
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "page_start": 14,
+      "page_end": 14
+    },
+    {
+      "page_start": 14,
+      "page_end": 14
+    },
+    {
+      "page_start": 14,
+      "page_end": 14
+    },
+    {
+      "page_start": 14,
+      "page_end": 14
+    },
+    {
+      "page_start": 15,
+      "page_end": 15
+    },
+    {
+      "page_start": 15,
+      "page_end": 15
+    },
+    {
+      "page_start": 15,
+      "page_end": 15
+    },
+    {
+      "page_start": 15,
+      "page_end": 15
+    },
+    {
+      "page_start": 16,
+      "page_end": 16
+    },
+    {
+      "page_start": 16,
+      "page_end": 16
+    },
+    {
+      "page_start": 16,
+      "page_end": 16
+    },
+    {
+      "page_start": 16,
+      "page_end": 16
+    },
+    {
+      "page_start": 17,
+      "page_end": 17
+    },
+    {
+      "page_start": 17,
+      "page_end": 17
+    },
+    {
+      "page_start": 17,
+      "page_end": 17
+    },
+    {
+      "page_start": 17,
+      "page_end": 17
+    },
+    {
+      "page_start": 18,
+      "page_end": 18
+    },
+    {
+      "page_start": 18,
+      "page_end": 18
+    },
+    {
+      "page_start": 18,
+      "page_end": 18
+    },
+    {
+      "page_start": 19,
+      "page_end": 19
+    },
+    {
+      "page_start": 19,
+      "page_end": 19
+    },
+    {
+      "page_start": 19,
+      "page_end": 19
+    },
+    {
+      "page_start": 19,
+      "page_end": 19
+    },
+    {
+      "page_start": 20,
+      "page_end": 20
+    },
+    {
+      "page_start": 20,
+      "page_end": 20
+    },
+    {
+      "page_start": 20,
+      "page_end": 20
+    },
+    {
+      "page_start": 20,
+      "page_end": 20
+    },
+    {
+      "page_start": 21,
+      "page_end": 21
+    },
+    {
+      "page_start": 21,
+      "page_end": 21
+    },
+    {
+      "page_start": 21,
+      "page_end": 21
+    },
+    {
+      "page_start": 21,
+      "page_end": 21
+    },
+    {
+      "page_start": 22,
+      "page_end": 22
+    },
+    {
+      "page_start": 22,
+      "page_end": 22
+    },
+    {
+      "page_start": 22,
+      "page_end": 22
+    },
+    {
+      "page_start": 22,
+      "page_end": 22
+    },
+    {
+      "page_start": 23,
+      "page_end": 23
+    },
+    {
+      "page_start": 23,
+      "page_end": 23
+    },
+    {
+      "page_start": 23,
+      "page_end": 23
+    },
+    {
+      "page_start": 23,
+      "page_end": 23
+    },
+    {
+      "page_start": 24,
+      "page_end": 24
+    },
+    {
+      "page_start": 24,
+      "page_end": 24
+    },
+    {
+      "page_start": 24,
+      "page_end": 24
+    },
+    {
+      "page_start": 25,
+      "page_end": 25
+    },
+    {
+      "page_start": 25,
+      "page_end": 25
+    },
+    {
+      "page_start": 25,
+      "page_end": 25
+    },
+    {
+      "page_start": 25,
+      "page_end": 25
+    },
+    {
+      "page_start": 26,
+      "page_end": 26
+    },
+    {
+      "page_start": 26,
+      "page_end": 26
+    },
+    {
+      "page_start": 26,
+      "page_end": 26
+    },
+    {
+      "page_start": 26,
+      "page_end": 26
+    },
+    {
+      "page_start": 26,
+      "page_end": 26
+    },
+    {
+      "page_start": 27,
+      "page_end": 27
+    },
+    {
+      "page_start": 27,
+      "page_end": 27
+    },
+    {
+      "page_start": 27,
+      "page_end": 27
+    },
+    {
+      "page_start": 27,
+      "page_end": 27
+    },
+    {
+      "page_start": 28,
+      "page_end": 28
+    },
+    {
+      "page_start": 28,
+      "page_end": 28
+    },
+    {
+      "page_start": 28,
+      "page_end": 28
+    },
+    {
+      "page_start": 28,
+      "page_end": 28
+    },
+    {
+      "page_start": 29,
+      "page_end": 29
+    },
+    {
+      "page_start": 29,
+      "page_end": 29
+    },
+    {
+      "page_start": 29,
+      "page_end": 29
+    },
+    {
+      "page_start": 29,
+      "page_end": 29
+    },
+    {
+      "page_start": 30,
+      "page_end": 30
+    },
+    {
+      "page_start": 30,
+      "page_end": 30
+    },
+    {
+      "page_start": 30,
+      "page_end": 30
+    },
+    {
+      "page_start": 30,
+      "page_end": 30
+    },
+    {
+      "page_start": 31,
+      "page_end": 31
+    },
+    {
+      "page_start": 31,
+      "page_end": 31
+    },
+    {
+      "page_start": 31,
+      "page_end": 31
+    },
+    {
+      "page_start": 31,
+      "page_end": 31
+    },
+    {
+      "page_start": 31,
+      "page_end": 31
+    },
+    {
+      "page_start": 32,
+      "page_end": 32
+    },
+    {
+      "page_start": 32,
+      "page_end": 32
+    },
+    {
+      "page_start": 33,
+      "page_end": 33
+    },
+    {
+      "page_start": 33,
+      "page_end": 33
+    },
+    {
+      "page_start": 33,
+      "page_end": 33
+    },
+    {
+      "page_start": 33,
+      "page_end": 33
+    },
+    {
+      "page_start": 33,
+      "page_end": 33
+    },
+    {
+      "page_start": 34,
+      "page_end": 34
+    },
+    {
+      "page_start": 34,
+      "page_end": 34
+    },
+    {
+      "page_start": 34,
+      "page_end": 34
+    },
+    {
+      "page_start": 34,
+      "page_end": 34
+    },
+    {
+      "page_start": 34,
+      "page_end": 34
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 35,
+      "page_end": 35
+    },
+    {
+      "page_start": 36,
+      "page_end": 36
+    },
+    {
+      "page_start": 36,
+      "page_end": 36
+    },
+    {
+      "page_start": 36,
+      "page_end": 36
+    },
+    {
+      "page_start": 37,
+      "page_end": 37
+    },
+    {
+      "page_start": 37,
+      "page_end": 37
+    },
+    {
+      "page_start": 37,
+      "page_end": 37
+    },
+    {
+      "page_start": 37,
+      "page_end": 37
+    },
+    {
+      "page_start": 37,
+      "page_end": 37
+    },
+    {
+      "page_start": 38,
+      "page_end": 38
+    },
+    {
+      "page_start": 38,
+      "page_end": 38
+    },
+    {
+      "page_start": 38,
+      "page_end": 38
+    },
+    {
+      "page_start": 38,
+      "page_end": 38
+    },
+    {
+      "page_start": 39,
+      "page_end": 39
+    },
+    {
+      "page_start": 39,
+      "page_end": 39
+    },
+    {
+      "page_start": 39,
+      "page_end": 39
+    },
+    {
+      "page_start": 39,
+      "page_end": 39
+    },
+    {
+      "page_start": 39,
+      "page_end": 39
+    },
+    {
+      "page_start": 40,
+      "page_end": 40
+    },
+    {
+      "page_start": 40,
+      "page_end": 40
+    },
+    {
+      "page_start": 40,
+      "page_end": 40
+    },
+    {
+      "page_start": 40,
+      "page_end": 40
+    },
+    {
+      "page_start": 40,
+      "page_end": 40
+    },
+    {
+      "page_start": 41,
+      "page_end": 41
+    },
+    {
+      "page_start": 41,
+      "page_end": 41
+    },
+    {
+      "page_start": 41,
+      "page_end": 41
+    },
+    {
+      "page_start": 41,
+      "page_end": 41
+    },
+    {
+      "page_start": 41,
+      "page_end": 41
+    },
+    {
+      "page_start": 42,
+      "page_end": 42
+    },
+    {
+      "page_start": 42,
+      "page_end": 42
+    },
+    {
+      "page_start": 42,
+      "page_end": 42
+    },
+    {
+      "page_start": 42,
+      "page_end": 42
+    },
+    {
+      "page_start": 43,
+      "page_end": 43
+    },
+    {
+      "page_start": 43,
+      "page_end": 43
+    },
+    {
+      "page_start": 43,
+      "page_end": 43
+    },
+    {
+      "page_start": 43,
+      "page_end": 43
+    },
+    {
+      "page_start": 43,
+      "page_end": 43
+    },
+    {
+      "page_start": 44,
+      "page_end": 44
+    },
+    {
+      "page_start": 44,
+      "page_end": 44
+    },
+    {
+      "page_start": 44,
+      "page_end": 44
+    },
+    {
+      "page_start": 44,
+      "page_end": 44
+    },
+    {
+      "page_start": 44,
+      "page_end": 44
+    },
+    {
+      "page_start": 45,
+      "page_end": 45
+    },
+    {
+      "page_start": 45,
+      "page_end": 45
+    },
+    {
+      "page_start": 45,
+      "page_end": 45
+    },
+    {
+      "page_start": 45,
+      "page_end": 45
+    },
+    {
+      "page_start": 46,
+      "page_end": 46
+    },
+    {
+      "page_start": 46,
+      "page_end": 46
+    },
+    {
+      "page_start": 46,
+      "page_end": 46
+    },
+    {
+      "page_start": 46,
+      "page_end": 46
+    },
+    {
+      "page_start": 47,
+      "page_end": 47
+    },
+    {
+      "page_start": 47,
+      "page_end": 47
+    },
+    {
+      "page_start": 47,
+      "page_end": 47
+    },
+    {
+      "page_start": 47,
+      "page_end": 47
+    },
+    {
+      "page_start": 47,
+      "page_end": 47
+    },
+    {
+      "page_start": 48,
+      "page_end": 48
+    },
+    {
+      "page_start": 48,
+      "page_end": 48
+    },
+    {
+      "page_start": 48,
+      "page_end": 48
+    },
+    {
+      "page_start": 48,
+      "page_end": 48
+    },
+    {
+      "page_start": 49,
+      "page_end": 49
+    },
+    {
+      "page_start": 49,
+      "page_end": 49
+    },
+    {
+      "page_start": 49,
+      "page_end": 49
+    },
+    {
+      "page_start": 49,
+      "page_end": 49
+    },
+    {
+      "page_start": 49,
+      "page_end": 49
+    },
+    {
+      "page_start": 50,
+      "page_end": 50
+    },
+    {
+      "page_start": 50,
+      "page_end": 50
+    },
+    {
+      "page_start": 50,
+      "page_end": 50
+    },
+    {
+      "page_start": 50,
+      "page_end": 50
+    },
+    {
+      "page_start": 50,
+      "page_end": 50
+    },
+    {
+      "page_start": 51,
+      "page_end": 51
+    },
+    {
+      "page_start": 51,
+      "page_end": 51
+    },
+    {
+      "page_start": 51,
+      "page_end": 51
+    },
+    {
+      "page_start": 51,
+      "page_end": 51
+    },
+    {
+      "page_start": 51,
+      "page_end": 51
+    },
+    {
+      "page_start": 52,
+      "page_end": 52
+    },
+    {
+      "page_start": 52,
+      "page_end": 52
+    },
+    {
+      "page_start": 52,
+      "page_end": 52
+    },
+    {
+      "page_start": 52,
+      "page_end": 52
+    },
+    {
+      "page_start": 53,
+      "page_end": 53
+    },
+    {
+      "page_start": 53,
+      "page_end": 53
+    },
+    {
+      "page_start": 53,
+      "page_end": 53
+    },
+    {
+      "page_start": 53,
+      "page_end": 53
+    },
+    {
+      "page_start": 53,
+      "page_end": 53
+    },
+    {
+      "page_start": 54,
+      "page_end": 54
+    },
+    {
+      "page_start": 54,
+      "page_end": 54
+    },
+    {
+      "page_start": 54,
+      "page_end": 54
+    },
+    {
+      "page_start": 54,
+      "page_end": 54
+    },
+    {
+      "page_start": 55,
+      "page_end": 55
+    },
+    {
+      "page_start": 55,
+      "page_end": 55
+    },
+    {
+      "page_start": 55,
+      "page_end": 55
+    },
+    {
+      "page_start": 55,
+      "page_end": 55
+    },
+    {
+      "page_start": 55,
+      "page_end": 55
+    },
+    {
+      "page_start": 56,
+      "page_end": 56
+    },
+    {
+      "page_start": 56,
+      "page_end": 56
+    },
+    {
+      "page_start": 56,
+      "page_end": 56
+    },
+    {
+      "page_start": 56,
+      "page_end": 56
+    },
+    {
+      "page_start": 56,
+      "page_end": 56
+    },
+    {
+      "page_start": 57,
+      "page_end": 57
+    },
+    {
+      "page_start": 57,
+      "page_end": 57
+    },
+    {
+      "page_start": 57,
+      "page_end": 57
+    },
+    {
+      "page_start": 57,
+      "page_end": 57
+    },
+    {
+      "page_start": 58,
+      "page_end": 58
+    },
+    {
+      "page_start": 58,
+      "page_end": 58
+    },
+    {
+      "page_start": 58,
+      "page_end": 58
+    },
+    {
+      "page_start": 58,
+      "page_end": 58
+    },
+    {
+      "page_start": 58,
+      "page_end": 58
+    },
+    {
+      "page_start": 59,
+      "page_end": 59
+    },
+    {
+      "page_start": 59,
+      "page_end": 59
+    },
+    {
+      "page_start": 59,
+      "page_end": 59
+    },
+    {
+      "page_start": 59,
+      "page_end": 59
+    },
+    {
+      "page_start": 59,
+      "page_end": 59
+    },
+    {
+      "page_start": 60,
+      "page_end": 60
+    },
+    {
+      "page_start": 60,
+      "page_end": 60
+    },
+    {
+      "page_start": 60,
+      "page_end": 60
+    },
+    {
+      "page_start": 60,
+      "page_end": 60
+    },
+    {
+      "page_start": 60,
+      "page_end": 60
+    },
+    {
+      "page_start": 61,
+      "page_end": 61
+    },
+    {
+      "page_start": 61,
+      "page_end": 61
+    },
+    {
+      "page_start": 61,
+      "page_end": 61
+    },
+    {
+      "page_start": 61,
+      "page_end": 61
+    },
+    {
+      "page_start": 61,
+      "page_end": 61
+    },
+    {
+      "page_start": 62,
+      "page_end": 62
+    },
+    {
+      "page_start": 62,
+      "page_end": 62
+    },
+    {
+      "page_start": 62,
+      "page_end": 62
+    },
+    {
+      "page_start": 62,
+      "page_end": 62
+    },
+    {
+      "page_start": 62,
+      "page_end": 62
+    },
+    {
+      "page_start": 63,
+      "page_end": 63
+    },
+    {
+      "page_start": 63,
+      "page_end": 63
+    },
+    {
+      "page_start": 63,
+      "page_end": 63
+    },
+    {
+      "page_start": 63,
+      "page_end": 63
+    },
+    {
+      "page_start": 64,
+      "page_end": 64
+    },
+    {
+      "page_start": 65,
+      "page_end": 65
+    },
+    {
+      "page_start": 66,
+      "page_end": 66
+    },
+    {
+      "page_start": 67,
+      "page_end": 67
+    },
+    {
+      "page_start": 67,
+      "page_end": 67
+    },
+    {
+      "page_start": 68,
+      "page_end": 68
+    },
+    {
+      "page_start": 68,
+      "page_end": 68
+    },
+    {
+      "page_start": 69,
+      "page_end": 69
+    },
+    {
+      "page_start": 70,
+      "page_end": 70
+    },
+    {
+      "page_start": 70,
+      "page_end": 70
+    },
+    {
+      "page_start": 71,
+      "page_end": 71
+    },
+    {
+      "page_start": 72,
+      "page_end": 72
+    },
+    {
+      "page_start": 73,
+      "page_end": 73
+    },
+    {
+      "page_start": 74,
+      "page_end": 74
+    },
+    {
+      "page_start": 75,
+      "page_end": 75
+    },
+    {
+      "page_start": 75,
+      "page_end": 75
+    },
+    {
+      "page_start": 76,
+      "page_end": 76
+    },
+    {
+      "page_start": 76,
+      "page_end": 76
+    },
+    {
+      "page_start": 77,
+      "page_end": 77
+    },
+    {
+      "page_start": 78,
+      "page_end": 78
+    },
+    {
+      "page_start": 79,
+      "page_end": 79
+    },
+    {
+      "page_start": 80,
+      "page_end": 80
+    },
+    {
+      "page_start": 81,
+      "page_end": 81
+    },
+    {
+      "page_start": 82,
+      "page_end": 82
+    }
+  ]
+}
