@@ -36,7 +36,8 @@ A Streamlit Cloud-on a környezeti változókat a következőképpen kell beáll
 ```toml
 [general]
 GROQ_API_KEY = "your_groq_api_key_here"
-EMBEDDING_MODEL = "Qwen/Qwen3-Embedding-0.6B"
+LLM_MODEL = "llama3-8b-8192"  # Groq modell neve
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 MAX_TOKENS = 2048

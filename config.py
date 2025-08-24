@@ -26,27 +26,47 @@ class Config:
             os.makedirs(directory, exist_ok=True)
     
     def _load_local_secrets(self):
-        """Projekt- és felhasználói szintű secrets.toml beolvasása anélkül, hogy st.secrets-t használnánk.
-        Ez elkerüli a Streamlit automatikus hibaüzenetét, ha nincs secrets.toml.
-        Elérési sorrend prioritás szerint: projekt/.streamlit > home/.streamlit
+        """Secrets betöltése több forrásból, biztonságosan.
+        Források prioritási sorrendben:
+        1) Projekt szintű .streamlit/secrets.toml (ha tomllib elérhető)
+        2) Felhasználói HOME/.streamlit/secrets.toml (ha tomllib elérhető)
+        3) Streamlit Cloud futtatási környezet: st.secrets
+        Megjegyzés: Az os.environ értékek külön, a _get_setting-ben kerülnek olvasásra.
         """
-        if _toml is None:
-            return
-        candidates = [
-            Path.cwd() / ".streamlit" / "secrets.toml",
-            Path.home() / ".streamlit" / "secrets.toml",
-        ]
         merged = {}
-        for p in candidates:
-            try:
-                if p.exists():
-                    with open(p, "rb") as f:
-                        data = _toml.load(f) or {}
-                    # Projekt szintű előnyt élvez, ezért először adjuk hozzá a projektet
-                    merged = {**data, **merged} if p == candidates[0] else {**merged, **data}
-            except Exception:
-                # Ha bármi gond van a fájl beolvasásával, hagyjuk figyelmen kívül
-                continue
+
+        # 1-2) TOML fájlok olvasása, ha a tomllib elérhető (Py 3.11+)
+        if _toml is not None:
+            candidates = [
+                Path.cwd() / ".streamlit" / "secrets.toml",
+                Path.home() / ".streamlit" / "secrets.toml",
+            ]
+            for p in candidates:
+                try:
+                    if p.exists():
+                        with open(p, "rb") as f:
+                            data = _toml.load(f) or {}
+                        # Projekt szintű előnyt élvez, ezért először adjuk hozzá a projektet
+                        merged = {**data, **merged} if p == candidates[0] else {**merged, **data}
+                except Exception:
+                    # Ha bármi gond van a fájl beolvasásával, hagyjuk figyelmen kívül
+                    continue
+
+        # 3) Streamlit st.secrets (Cloud UI-ból), bármely Python verzión
+        try:
+            s = getattr(st, "secrets", None)
+            # st.secrets egy Mapping-szerű objektum; próbáljuk dict-ké alakítani
+            if s:
+                try:
+                    s_dict = dict(s)
+                except Exception:
+                    s_dict = None
+                if isinstance(s_dict, dict) and s_dict:
+                    merged = {**merged, **s_dict}
+        except Exception:
+            # Ha nem elérhető vagy hiba történik, csendben ignoráljuk
+            pass
+
         self._secrets = merged
 
     def _get_setting(self, key, default=None, value_type=str):
@@ -101,7 +121,8 @@ class Config:
     # LLM beállítások (modell és kontextus keret)
     @property
     def LLM_MODEL(self):
-        return self._get_setting("LLM_MODEL", "openai/gpt-oss-120b")
+        # Alapértelmezett: Groq által támogatott modell
+        return self._get_setting("LLM_MODEL", "llama3-8b-8192")
 
     @property
     def CONTEXT_TOKEN_BUDGET(self):

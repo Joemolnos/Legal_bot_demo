@@ -39,6 +39,8 @@ ENV/
 # Adatfájlok
 data/embeddings/*.index
 data/embeddings/*.json
+data/chunks/*.json
+data/metadata/*.json
 
 # Egyéb
 .DS_Store
