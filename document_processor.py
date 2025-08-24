@@ -1,6 +1,5 @@
 import os
 import json
-import fitz  # PyMuPDF
 import hashlib
 from typing import List, Dict, Tuple
 from langdetect import detect
@@ -21,27 +20,27 @@ class DocumentProcessor:
             os.makedirs(directory, exist_ok=True)
     
     def process_pdf(self, file_path: str) -> Tuple[List[str], Dict]:
-        """PDF fájl feldolgozása szöveg kinyeréssel és oldal-információ megtartásával.
-        A chunkolás oldalszinten történik, hogy a hivatkozás (page) visszaadható legyen.
+        """PDF fájl feldolgozása PyPDF2-vel (pure-Python), oldalszintű chunkolással.
+        Cél: elkerülni a PyMuPDF (fitz) natív fordítását a Cloud környezetben.
         """
         try:
-            doc = fitz.open(file_path)
-            total_pages = len(doc)
+            from PyPDF2 import PdfReader
+
+            reader = PdfReader(file_path)
+            total_pages = len(reader.pages)
             all_chunks: List[str] = []
             chunk_pages: List[Dict] = []
 
             aggregated_text = []
             for page_num in range(total_pages):
-                page = doc.load_page(page_num)
-                page_text = page.get_text()
+                page = reader.pages[page_num]
+                page_text = page.extract_text() or ""
                 aggregated_text.append(page_text)
                 # Oldalszintű chunkolás
                 page_chunks = self._create_chunks(page_text)
                 for ch in page_chunks:
                     all_chunks.append(ch)
                     chunk_pages.append({"page_start": page_num + 1, "page_end": page_num + 1})
-
-            doc.close()
 
             full_text = "".join(aggregated_text)
 

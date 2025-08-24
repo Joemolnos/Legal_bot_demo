@@ -1,9 +1,1 @@
-pkg-config
-mupdf
-mupdf-tools
-build-essential
-python3-dev
-swig
-cmake
-gfortran
 libopenblas-dev
